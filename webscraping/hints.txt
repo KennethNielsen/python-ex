@@ -1,0 +1,15 @@
+1) The line that contains '<span class="mw-headline" id="Results">' starts the result sections.
+
+2) After this look for table start '<table' and table close '</table>'
+
+3) The game results are the 2nd and 4th table
+
+4) The date seems to be on the line that contains a '<td>' tag and has only 2 tags in total
+
+6) All the lines that contains information items, seems to have a bit of unique text in them, more specifically:
+
+    'align="right"'
+    'align="center"'
+    'white-space:nowrap"'
+
+5) On those lines, all the information items seems to be located right after the word 'title'
