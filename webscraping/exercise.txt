@@ -1,3 +1,16 @@
+Exercise description
+
+1) From the source code (HTML) for the English Wikipedia article on EM
+92 (https://en.wikipedia.org/wiki/UEFA_Euro_1992), extract dates, team
+names and result from the group play.
+
+2) Organize the information in suitable containers
+
+
+
+
+HINTS to find your way around the HTML
+
 1) The line that contains '<span class="mw-headline" id="Results">' starts the result sections.
 
 2) After this look for table start '<table' and table close '</table>'
