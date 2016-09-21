@@ -38,7 +38,7 @@ def process_result_line(line):
         if identifier in line:
             info_item = extract_at_title(line)
             if info_type == 'left_team':
-                RESULTS.append({info_type: info_item})
+                RESULTS.append({info_type: info_item, 'date': LAST_DATE})
             else:
                 RESULTS[-1][info_type] = info_item
 
